@@ -1,0 +1,19 @@
+{
+  "name": "ntask-web",
+  "version": "1.0.0",
+  "description": "Web client application for NTask-API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainey/ntask-web.git"
+  },
+  "author": "Bill Rainey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brainey/ntask-web/issues"
+  },
+  "homepage": "https://github.com/brainey/ntask-web#readme"
+}
