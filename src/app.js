@@ -16,7 +16,7 @@ class App {
   }
   signinEvents() {
     this.signin.on("error", () => alert("Authentication error"));
-    this.signon.on("signin", (token) => {
+    this.signin.on("signin", (token) => {
       localStorage.setItem("token", `JWT ${token}`);
       alert("You are logged in!");
     });

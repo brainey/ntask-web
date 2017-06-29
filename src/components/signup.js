@@ -7,7 +7,7 @@ class Signup extends NTask {
     this.body = body;
   }
   render() {
-    ths.body.innerHTML = Template.render();
+    this.body.innerHTML = Template.render();
     this.body.querySelector("[data-name]").focus();
     this.addEventListener();
   }

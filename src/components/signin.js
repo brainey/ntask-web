@@ -34,7 +34,7 @@ class Signin extends NTask {
         if (err || resp.status === 401) {
           this.emit("error", err);
         } else {
-          ths.emit("signin", data.token);
+          this.emit("signin", data.token);
         }
       });
     });
